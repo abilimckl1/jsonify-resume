@@ -1,9 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import { Amplify } from 'aws-amplify';
-import awsExports from './aws-exports';
-Amplify.configure(awsExports);
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
