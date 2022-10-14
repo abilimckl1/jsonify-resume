@@ -154,7 +154,7 @@ export default {
     },
     mounted() {
         //fetch('http://localhost:3000/user/' + this.id)
-        fetch('https://api.npoint.io/a1977e9ffee4d9de5da8/user/' + this.id)
+        fetch('malcolm.ddns.net:3000/user/' + this.id)
             .then(res => res.json())
             .then(data => this.user = data)
             .catch(err => console.log(err.message))

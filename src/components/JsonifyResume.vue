@@ -146,7 +146,7 @@ import axios from 'axios';
 var stringifyOutside = "";
 var JSONoutside = {};
 //const JSONDB = "http://localhost:3000/user";
-const JSONDB = "https://api.npoint.io/a1977e9ffee4d9de5da8/user";
+const JSONDB = "malcolm.ddns.net:3000/user";
 
 export default {
     name: 'JsonifyResume',
