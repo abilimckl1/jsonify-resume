@@ -146,7 +146,7 @@ import axios from 'axios';
 var stringifyOutside = "";
 var JSONoutside = {};
 //const JSONDB = "http://localhost:3000/user";
-const JSONDB = "malcolm.ddns.net:3000/user";
+const JSONDB = "https://my-json-server.typicode.com/abilimckl1/abilimckl1.github.io/user";
 
 export default {
     name: 'JsonifyResume',
