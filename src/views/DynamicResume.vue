@@ -153,7 +153,7 @@ export default {
         }
     },
     mounted() {
-        fetch('http://localhost:3000/user/' + this.id)
+        fetch('https://main.d1319qwr7qlcnl.amplifyapp.com/user/' + this.id)
             .then(res => res.json())
             .then(data => this.user = data)
             .catch(err => console.log(err.message))
