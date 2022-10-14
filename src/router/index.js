@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import JsonifyView from '../views/JsonifyView.vue'
+import DynamicResume from '../views/DynamicResume.vue'
+import NotFound from '../views/NotFound.vue'
 
 const routes = [
   {
@@ -8,12 +11,22 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/jsonify',
+    name: 'jsonify',
+    component: JsonifyView
+  },
+  {
+    path: '/resume/:id',
+    name: 'DynamicResume',
+    component: DynamicResume,
+    props: true
+  },
+
+  //404
+  {
+    path: '/:catchAll(.*)',
+    name: 'NotFound',
+    component: NotFound
   }
 ]
 
