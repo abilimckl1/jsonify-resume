@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jsonifyresume-dev-201426-authRole",
+      "UnauthRoleArn": "arn:aws:iam::652741310034:role/amplify-jsonifyresume-dev-201426-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::652741310034:role/amplify-jsonifyresume-dev-201426-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-jsonifyresume-dev-201426-deployment",
+      "UnauthRoleName": "amplify-jsonifyresume-dev-201426-unauthRole",
+      "StackName": "amplify-jsonifyresume-dev-201426",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:652741310034:stack/amplify-jsonifyresume-dev-201426/c0fc8140-4bb9-11ed-88f8-0643d1553ff4",
+      "AmplifyAppId": "d1u1cu6uvl2kux"
+    }
+  },
+  "admin": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jsonifyresume-admin-201800-authRole",
+      "UnauthRoleArn": "arn:aws:iam::652741310034:role/amplify-jsonifyresume-admin-201800-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::652741310034:role/amplify-jsonifyresume-admin-201800-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-jsonifyresume-admin-201800-deployment",
+      "UnauthRoleName": "amplify-jsonifyresume-admin-201800-unauthRole",
+      "StackName": "amplify-jsonifyresume-admin-201800",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:652741310034:stack/amplify-jsonifyresume-admin-201800/403d41b0-4bba-11ed-bd95-0238fd245b8e",
+      "AmplifyAppId": "d1u1cu6uvl2kux"
+    }
+  }
+}
