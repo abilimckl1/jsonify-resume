@@ -7,6 +7,7 @@ frontend:
     build:
       commands:
         - npm run build
+        - json-server --watch src/assets/resume.json
   artifacts:
     baseDirectory: dist
     files:
