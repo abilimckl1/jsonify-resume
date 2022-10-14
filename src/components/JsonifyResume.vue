@@ -145,7 +145,7 @@
 import axios from 'axios';
 var stringifyOutside = "";
 var JSONoutside = {};
-const JSONDB = "https://main.d1319qwr7qlcnl.amplifyapp.com/user";
+const JSONDB = "http://localhost:3000/user";
 
 export default {
     name: 'JsonifyResume',
