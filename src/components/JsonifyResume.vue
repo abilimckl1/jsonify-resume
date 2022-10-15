@@ -170,6 +170,7 @@ export default {
                 if(confirm(text))
                 {
                     const res = await axios.post(JSONDB, JSONoutside);
+                    alert('Your JSON has been to database.');
                 }
             } 
             catch (e) {
